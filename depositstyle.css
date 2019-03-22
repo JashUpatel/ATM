@@ -204,6 +204,15 @@ footer p{
 
 @media (max-width:375px){
 
+  #h{
+  text-shadow: 2.5px 2.5px 3px black, 2.5px 2.5px 3px #ac9766;
+  text-transform: uppercase;
+  margin-top: 12%;
+  color: white;
+  font-size: 150%;
+}
+
+  
   #main{
     height: 550px;
     width: 100%;

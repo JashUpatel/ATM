@@ -389,6 +389,27 @@ text-shadow:2px 2.5px 5px black, 2px 2.5px 5px #ac9766;
   font-weight: bold;
 border-radius: -1%;
 }
+  
+  #confirm button{
+  margin-left: -7%;
+  width: 235%;
+}
+#confirm button:hover{
+  margin-left: -7%;
+  width: 235%;
+}
+
+  #cancel button{
+  width: 100%;
+  margin-left: -25%;
+}
+
+#cancel button:hover{
+  width: 100%;
+  margin-left: -25%;
+}
+
+
 
 footer p{
   font-size: 0.75em;

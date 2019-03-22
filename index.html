@@ -7,6 +7,13 @@
     <link rel="stylesheet" href="indexstyle.css">
     <link rel="stylesheet" href="all.css">
     <script type="text/javascript">
+      
+      function cancel(){
+    document.write();
+    //window.location.href="transc.html";
+    window.location.assign("transc.html");
+  }
+      
    //var width=window.innerWidth;,,,,screen.Width;
    var wid = window.screen.availWidth;
    if(wid<375){
@@ -102,7 +109,7 @@ document.getElementsByTagName('i').classList.addClass('fa-3x');
             <td></td>
             <td></td>
             <td style="float:right; margin-right:60px;">
-              <button type="submit" name="submit">Login &nbsp;<i class="fas fa-sign-in-alt"></i> </button>
+              <button onclick="cancel()" type="submit" name="submit">Login &nbsp;<i class="fas fa-sign-in-alt"></i> </button>
             </td>
           </tr>
         </table>
